@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+.first-header {
+  background: url(/src/images/Bg.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+}
+
+.navbar  {
+  background: 'red';
+}
+
+.linkText {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-right: 30px;
+}
+
+#search2 {
+  position: absolute;
+  top:38px;
+  right:332px
+  
+}
+
+#circle-inner {
+  position: absolute;
+  top: 500px;
+  left:150px
+}
+
+#circle-cib{
+  position: absolute;
+  top: 510px;
+  left:160px
+}
+
+#circle-text-up{
+  position: absolute;
+  top: 530px;
+  left:155px;
+  font-size: 20px;
+  color:#FFFFFF
+}
+
+#circle-text-down{
+  position: absolute;
+  top: 560px;
+  left:145px;
+  font-size: 15px;
+  color:#FFFFFF
+}
+
+#upcomming-shows {
+  font-family: Libre Baskerville;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white
+}
+
+#hr-id {
+  border: 2px solid #0259EB;
+  margin-right: 90%;
+}
+
+#view-all {
+  color: #E5C558;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#card-folk {
+  font-family: Nunito;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #682F26;
+  background: #E5C558;
+  margin-right: 80%;
+  padding: 3%;
+  text-align: center;
+}
+
+#card-bolly {
+  font-family: Nunito;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #682F26;
+  background: #E5C558;
+  margin-right: 50%;
+  padding: 3%;
+  text-align: center;
+}
+
+#card-benny {
+  font-family: Libre Baskerville;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#FFFFFF;
+}
+
+#more-info {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  color: #0259EB;
+}
+
+#hellen {
+  font-family: Quattrocento;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#FFFFFF;
+
+}
+
+#ca {
+  font-family: Rubik;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#E5C558;
+  margin-top:-15px;
+  margin-left: 30px;
+}
+
+#lorem {
+  font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color:#FFFFFF;
+}
