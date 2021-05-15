@@ -1,4 +1,5 @@
 import { React } from 'react';
+import '../App.css'
 import { Container, Row, Col, Image, Card } from 'react-bootstrap'
 import circle from '../circle.png'
 import heart from '../heart.png'
@@ -20,8 +21,21 @@ function Home() {
     return (
 
         <div className="header-wraper">
+        
+        
             <Container className="first-header" fluid>
+            <Container className="header" fluid>
+         <Row>
+         <Col md={6}>
+        <h1 className="mx-auto d-block namehead" style={{ width: '60%', marginTop: '140px',marginBottom:'60px' , color:'white'}}>Cari Cari <strong><h6>Live from their sofa to yours. Get closer to your favorite artists, and never miss out.</h6></strong></h1>
+        
+                    </Col>
+
+         </Row>
+        </Container>
+         
                 <Row>
+                      
                     <Col md={3}>
                         <Image src={circle} className="mx-auto d-block" style={{ width: '60%', marginTop: '450px' }} />
                         <Image src={heart} id="circle-inner" />
